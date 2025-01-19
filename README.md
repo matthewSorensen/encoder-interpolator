@@ -6,6 +6,9 @@
 
 This project contains source files for hardware designed to interface with industry-standard 1vpp analog-output sin/cos encoders, and convert their output into a high-resolution interpolated digital quadrature signal. It uses iC-Haus' [iC-TW8](https://www.ichaus.de/product/ic-tw8/) 16-bit sin/cos interpolator IC in order to do this, and has an interface compatible with Renishaw's [REE analog interpolators](https://www.renishaw.com/resourcecentre/download/data-sheet-ree-analogue-interface--18359). However, unlike the REE series, it isn't limited to a fixed factory-set resolution and has a SPI interface.
 
+
+![Interpolating some sines](output_example.png?raw=true)
+
 ## Revision History
 
 ### Revision 1
