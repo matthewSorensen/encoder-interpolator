@@ -119,12 +119,12 @@ C3 controls AB output frequency (row) and lag recovery (column).
 
 | Maximum AB Frequency | Maximum AB Frequency (24MHz clock) | Lag Recovery Enabled | Lag Recovery Disabled (Recommended) |
 |:---:| :---:| :---:|:---:|
-|*f~clock~*/8 | 3.0 MHz | 11 | 5 |
-|*f~clock~*/16 | 1.0 MHz | 10 | 4 |
-|*f~clock~*/32 | 0.75 MHz | 9 | 3 |
-|*f~clock~*/64 | 0.375 MHz | 8 | 2 |
-|*f~clock~*/128 | 187.5 KHz | 7 | 1 |
-|*f~clock~*/256 | 93.75 KHz | 6 | 0 |
+|*f<sub>clock</sub>*/8 | 3.0 MHz | 11 | 5 |
+|*f<sub>clock</sub>*/16 | 1.0 MHz | 10 | 4 |
+|*f<sub>clock</sub>*/32 | 0.75 MHz | 9 | 3 |
+|*f<sub>clock</sub>*/64 | 0.375 MHz | 8 | 2 |
+|*f<sub>clock</sub>*/128 | 187.5 KHz | 7 | 1 |
+|*f<sub>clock</sub>*/256 | 93.75 KHz | 6 | 0 |
 
 
 ## Future Directions
