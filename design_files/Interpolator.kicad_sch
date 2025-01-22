@@ -4722,7 +4722,7 @@
     (property "Reference" "X1" (at 109.728 18.288 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DSC1001 - 24MHz" (at 115.316 20.32 0)
+    (property "Value" "DSC1001BE5-024.0000" (at 116.205 21.082 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "encoder-interpolator:Oscillator5x3.2mm" (at 122.047 37.465 0)
@@ -4731,10 +4731,10 @@
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/B400/XO91.pdf" (at 101.727 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d190a9fe-2b6a-4577-bd8e-c01ba867f9de))
-    (pin "2" (uuid bccfeb62-806c-45de-a104-cdc649d76a37))
-    (pin "3" (uuid c481eaa4-1eff-4f71-993f-77d14da77b16))
-    (pin "4" (uuid 0ed0f58b-68a9-4c76-aa9e-59e9a661f2a3))
+    (pin "1" (uuid fa6c947c-c3f9-439f-90b4-84f8df3c2ad0))
+    (pin "2" (uuid d58be04e-7bfa-4d55-934f-b6ebe2b0adc1))
+    (pin "3" (uuid 9aea76b0-7f41-4516-896a-1d43dd13cd63))
+    (pin "4" (uuid e9df3044-4468-415a-8f58-f5f34ecedd4d))
     (instances
       (project "Interpolator"
         (path "/ad0c798b-c252-404e-ad35-686f06b8687c"
