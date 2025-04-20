@@ -11,9 +11,13 @@ This project contains source files for hardware designed to interface with indus
 
 ## Revision History
 
+### Revision 2
+
+Cyrus Lloyd kindly pointed out that the rev 0/1 output connector pinout actually bears absolutely no resemblance to the REE family interface - a minor oversight with no functional consequences, clearly, and not a failure of the entire raison d'être of the project. Revision 2 fixes this, but is as of yet untested.
+
 ### Revision 1
 
-Although revision 0 is fully functional, hardware is never perfect. Revision 1 contains two minor changes:
+Although revision 0 is fully functional, hardware is never perfect (see revision 2). Revision 1 contains two minor changes:
 
   * The package and footprint of the MEMS oscillator used to generate an on-board 24MHz clock signal was changed from a large 7x5mm package
     (with an incorrect footprint prone to solder bridging) to a smaller 5x3.2mm package with a correct footprint.
@@ -64,6 +68,8 @@ The encoder interpolator boards may be configured in two ways: in hardware, via 
 bus. The SPI command reference for this chip is only available via request from iC-Haus (in the "iC-TW8 16-BIT SIN/COS INTERPOLATOR Programmer’s Reference" document)
 and will not be discussed further. Note that iC-Haus prefers totally-legitimate-seeming corporate email accounts. The full documentation for hardware-configurable
 settings is available in the public datasheet, and a subset is reproduced here.
+
+After changing any settings or a new encoder, running the auto-calibration routine is recommended, and may be accomplished by holding down the push button, moving the encoder through a number of cycles, and releasing the button.
 
 ### Jumper Settings
 
@@ -162,8 +168,6 @@ C3 controls AB output frequency (row) and lag recovery (column).
 |*f<sub>clock</sub>*/64 | 0.375 MHz | 8 | 2 |
 |*f<sub>clock</sub>*/128 | 187.5 KHz | 7 | 1 |
 |*f<sub>clock</sub>*/256 | 93.75 KHz | 6 | 0 |
-
-
 
 
 ## Future Directions
